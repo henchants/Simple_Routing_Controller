@@ -5,6 +5,18 @@ use App\Http\Controllers\AboutMeController;
 use App\Http\Controllers\SkillsController;
 use App\Http\Controllers\HobbiesController;
 
-Route::get('/about-me', [AboutMeController::class, 'index'])->name('about.me');
-Route::get('/skills', [SkillsController::class, 'index'])->name('skills');
-Route::get('/hobbies', [HobbiesController::class, 'index'])->name('hobbies');
+Route::get('/', function () {
+return view('welcome');
+});
+
+Route::get('about_me', function () {
+return view('about_me');
+});
+
+Route::get('skills', function () {
+return view('skills');
+});
+
+Route::get('hobbies', function () {
+return view('hobbies');
+});
