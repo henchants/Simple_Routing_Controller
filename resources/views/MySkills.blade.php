@@ -1,8 +1,10 @@
+
 <!DOCTYPE html>
 <html>
     
 <head>
-    <title>My Skills</title>
+    <title>Skills</title>
+    
 </head>
 
 <body>

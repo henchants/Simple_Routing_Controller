@@ -50,9 +50,9 @@
     <div class="main-content">
         <h1>WELCOME</h1>
         <p>
-            <a href="{{ route('aboutme') }}">About Me</a>
-            <a href="{{ route('skills') }}">Skills</a>
-            <a href="{{ route('hobbies') }}">Hobbies</a>
+            <a href="aboutme">About Me</a>
+            <a href="skills">Skills</a>
+            <a href="hobbies">Hobbies</a>
         </p>
     </div>
 </body>

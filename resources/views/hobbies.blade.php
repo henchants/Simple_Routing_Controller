@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <title>My Hobbies</title>
+    <title>hobbies</title>
+    
 </head>
 
 <body>

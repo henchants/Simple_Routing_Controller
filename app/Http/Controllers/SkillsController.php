@@ -8,6 +8,6 @@ class SkillsController extends Controller
 {
     public function skills()
     {
-        return view('My Skills');
+        return view('MySkills');
     }
 }

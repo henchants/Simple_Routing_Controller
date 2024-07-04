@@ -8,6 +8,6 @@ class HobbiesController extends Controller
 {
     public function hobbies()
     {
-        return view('My Hobbies');
+        return view('hobbies');
     }
 }
