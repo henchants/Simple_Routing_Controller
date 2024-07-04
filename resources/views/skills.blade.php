@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
-    <title>Skills</title>
+    <title>My Skills</title>
 </head>
+
 <body>
-    <h1>Skills</h1>
-    <a href="{{ route('about.me') }}">About Me</a>
-    <a href="{{ route('skills') }}">Skills</a>
-    <a href="{{ route('hobbies') }}">Hobbies</a>
+    <h1>My Skills</h1>
+    <p>I can play drums</p>
+    <p>Active listening</p>
+    <p>Typing Proficiency</p>
+    <p>Self-Discipline</p>
+    <p>Critical Thinking</p>
+    <p>Conflict Resolution</p>
 </body>
 </html>

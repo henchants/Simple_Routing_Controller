@@ -6,9 +6,8 @@ use Illuminate\Http\Request;
 
 class AboutMeController extends Controller
 {
-    public function index()
+    public function aboutme()
     {
-        $data = ['name' => 'Henry Chantioco', 'description' => 'A college student majoring in Web Tech.'];
-        return view('about_me', $data);
+        return view('aboutme');
     }
 }

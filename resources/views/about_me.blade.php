@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
-    <title>Skills</title>
+    <title>About Me</title>
 </head>
-<body>
-    <h1>Skills</h1>
 
-    <a href="{{ route('about.me') }}">About Me</a>
-    <a href="{{ route('skills') }}">Skills</a>
-    <a href="{{ route('hobbies') }}">Hobbies</a>
+<body>
+    <h1>About Me</h1>
+    <p>My name is Henry R. Chantioco</p>
+    <p>My birthday is on July 17, 2003</p>
+    <p></p>
 </body>
 </html>

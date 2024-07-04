@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Hobbies</title>
+    <title>My Hobbies</title>
 </head>
+
 <body>
-    <h1>Hobbies</h1>
-    <a href="{{ route('about.me') }}">About Me</a>
-    <a href="{{ route('skills') }}">Skills</a>
-    <a href="{{ route('hobbies') }}">Hobbies</a>
+    <h1>My Hobbies</h1>
+    <p>Playing Drums</p>
+    <p>Playing Video Games</p>
+    <p>Travelling</p>
+    <p>I Love Coffee</p>
+    <p>I love watching horror movies</p>
+    <p>I like reading books</p>
 </body>
 </html>
